@@ -1,0 +1,65 @@
+{
+    "compartment": {
+        "width_mm": 500.0,
+        "height_mm": 300.0,
+        "depth_mm": 200.0,
+        "max_mass_kg": 10.0,
+        "max_thermal_w": 150.0,
+        "desired_com_mm": [
+            250.0,
+            150.0,
+            100.0
+        ],
+        "emc_field_v_m": 50.0
+    },
+    "modules": [
+        {
+            "id": "1",
+            "name": "A",
+            "width_mm": 50.0,
+            "height_mm": 30.0,
+            "depth_mm": 20.0,
+            "mass_kg": 2.0,
+            "thermal_w": 10.0,
+            "emc_threshold_v_m": 100.0,
+            "role": "emitter",
+            "position_mm": [
+                374.0076073369728,
+                89.5655313304336,
+                63.72475550466588
+            ]
+        },
+        {
+            "id": "2",
+            "name": "B",
+            "width_mm": 40.0,
+            "height_mm": 40.0,
+            "depth_mm": 30.0,
+            "mass_kg": 1.5,
+            "thermal_w": 8.0,
+            "emc_threshold_v_m": 80.0,
+            "role": "receiver",
+            "position_mm": [
+                221.74426398912618,
+                153.55336411677055,
+                170.37451157513888
+            ]
+        },
+        {
+            "id": "3",
+            "name": "C",
+            "width_mm": 60.0,
+            "height_mm": 20.0,
+            "depth_mm": 20.0,
+            "mass_kg": 1.8,
+            "thermal_w": 5.0,
+            "emc_threshold_v_m": 150.0,
+            "role": "neutral",
+            "position_mm": [
+                136.02444576066173,
+                212.72778024443383,
+                81.52815161349955
+            ]
+        }
+    ]
+}
